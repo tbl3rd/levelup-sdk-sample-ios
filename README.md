@@ -23,7 +23,11 @@ application by simply setting them to 0.
 Building
 --------
 
-To build this demo, everything should be set except one thing: you need an API
+This demo uses [CocoaPods](http://cocoapods.org/). Install Cocoapods if you've
+never used it before, and then run `pod install` to download and configure the
+app's dependencies.
+
+Everything else in this demo should be set except for one thing: you need an API
 key. At the moment, the method for acquiring said key is out of the scope of
 this document.
 

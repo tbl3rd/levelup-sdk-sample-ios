@@ -10,19 +10,20 @@
 *.pbxuser
 xcuserdata
 *.xccheckout
-
 # Build products
 build/
 *.o
 *.LinkFileList
 *.hmap
-
 # Automatic backup files
 *~.nib/
 *.swp
 *~
 *.dat
 *.dep
-
 # Cocoapods
 Pods
+# OS X Finder
+# AppCode specific files
+.idea/
+*.iml
