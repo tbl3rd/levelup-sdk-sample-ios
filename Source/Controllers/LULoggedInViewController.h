@@ -1,0 +1,3 @@
+@interface LULoggedInViewController : UIViewController
+
+@end

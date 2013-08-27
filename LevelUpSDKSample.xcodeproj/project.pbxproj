@@ -7,56 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02087DC217CCFA5B00D2C022 /* LURequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 02087DC117CCFA5B00D2C022 /* LURequestHandler.m */; };
+		02087DC517CCFC3B00D2C022 /* LULoggedInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02087DC417CCFC3B00D2C022 /* LULoggedInViewController.m */; };
+		02087DC717CCFC4F00D2C022 /* LULoggedInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02087DC617CCFC4F00D2C022 /* LULoggedInViewController.xib */; };
+		02087DCB17CCFE3A00D2C022 /* LUPayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02087DC917CCFE3A00D2C022 /* LUPayViewController.m */; };
+		02087DCE17CCFE4D00D2C022 /* LUPayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02087DCD17CCFE4D00D2C022 /* LUPayViewController.xib */; };
+		02087DD117CCFFE300D2C022 /* LUAuthenticationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 02087DD017CCFFE300D2C022 /* LUAuthenticationHandler.m */; };
+		02087DD517CD134500D2C022 /* LUAddCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02087DD317CD134500D2C022 /* LUAddCardViewController.m */; };
+		02087DD817CD135A00D2C022 /* LUAddCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02087DD717CD135A00D2C022 /* LUAddCardViewController.xib */; };
+		02087DDC17CD17A700D2C022 /* LURegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02087DDA17CD17A700D2C022 /* LURegisterViewController.m */; };
+		02087DDF17CD17B800D2C022 /* LURegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02087DDE17CD17B800D2C022 /* LURegisterViewController.xib */; };
+		022757F417CCE47800C83515 /* LULoggedOutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 022757F317CCE47800C83515 /* LULoggedOutViewController.xib */; };
+		022757F817CCF41500C83515 /* LULogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 022757F617CCF41500C83515 /* LULogInViewController.m */; };
+		022757FB17CCF42B00C83515 /* LULogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 022757FA17CCF42B00C83515 /* LULogInViewController.xib */; };
 		029F3C0B17B3F0E7009B0BB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029F3C0A17B3F0E7009B0BB0 /* UIKit.framework */; };
 		029F3C0D17B3F0E7009B0BB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029F3C0C17B3F0E7009B0BB0 /* Foundation.framework */; };
 		029F3C0F17B3F0E7009B0BB0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029F3C0E17B3F0E7009B0BB0 /* CoreGraphics.framework */; };
-		029F3C1B17B3F0E7009B0BB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 029F3C1A17B3F0E7009B0BB0 /* AppDelegate.m */; };
-		029F3C2F17B3F0E8009B0BB0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029F3C2E17B3F0E8009B0BB0 /* SenTestingKit.framework */; };
-		029F3C3017B3F0E8009B0BB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029F3C0A17B3F0E7009B0BB0 /* UIKit.framework */; };
-		029F3C3117B3F0E8009B0BB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029F3C0C17B3F0E7009B0BB0 /* Foundation.framework */; };
-		029F3C5517B3F369009B0BB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 029F3C4917B3F369009B0BB0 /* ViewController.m */; };
+		029F3C1B17B3F0E7009B0BB0 /* LUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 029F3C1A17B3F0E7009B0BB0 /* LUAppDelegate.m */; };
+		029F3C5517B3F369009B0BB0 /* LULoggedOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 029F3C4917B3F369009B0BB0 /* LULoggedOutViewController.m */; };
 		029F3C5617B3F369009B0BB0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 029F3C4C17B3F369009B0BB0 /* Default-568h@2x.png */; };
 		029F3C5717B3F369009B0BB0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 029F3C4D17B3F369009B0BB0 /* Default.png */; };
 		029F3C5817B3F369009B0BB0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 029F3C4E17B3F369009B0BB0 /* Default@2x.png */; };
-		029F3C5917B3F369009B0BB0 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029F3C5017B3F369009B0BB0 /* MainStoryboard.storyboard */; };
 		029F3C5B17B3F369009B0BB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 029F3C5417B3F369009B0BB0 /* main.m */; };
-		029F3C5F17B3F420009B0BB0 /* AppDelegateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 029F3C5E17B3F420009B0BB0 /* AppDelegateSpec.m */; };
 		25B21E93647540AF9A2B2395 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 522D35D0BB894D019D27FE1D /* libPods.a */; };
-		41ECBC3BCFA64244B7CDD47B /* libPods-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E816A77369564D8A8781B0AB /* libPods-test.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		029F3C3217B3F0E8009B0BB0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 029F3BFF17B3F0E7009B0BB0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 029F3C0617B3F0E7009B0BB0;
-			remoteInfo = CoreSDKSample;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		02087DC017CCFA5B00D2C022 /* LURequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LURequestHandler.h; path = Handlers/LURequestHandler.h; sourceTree = "<group>"; };
+		02087DC117CCFA5B00D2C022 /* LURequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LURequestHandler.m; path = Handlers/LURequestHandler.m; sourceTree = "<group>"; };
+		02087DC317CCFC3A00D2C022 /* LULoggedInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LULoggedInViewController.h; sourceTree = "<group>"; };
+		02087DC417CCFC3B00D2C022 /* LULoggedInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LULoggedInViewController.m; sourceTree = "<group>"; };
+		02087DC617CCFC4F00D2C022 /* LULoggedInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LULoggedInViewController.xib; path = NIBs/LULoggedInViewController.xib; sourceTree = "<group>"; };
+		02087DC817CCFE3A00D2C022 /* LUPayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUPayViewController.h; sourceTree = "<group>"; };
+		02087DC917CCFE3A00D2C022 /* LUPayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUPayViewController.m; sourceTree = "<group>"; };
+		02087DCD17CCFE4D00D2C022 /* LUPayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LUPayViewController.xib; path = NIBs/LUPayViewController.xib; sourceTree = "<group>"; };
+		02087DCF17CCFFE300D2C022 /* LUAuthenticationHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LUAuthenticationHandler.h; path = Handlers/LUAuthenticationHandler.h; sourceTree = "<group>"; };
+		02087DD017CCFFE300D2C022 /* LUAuthenticationHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LUAuthenticationHandler.m; path = Handlers/LUAuthenticationHandler.m; sourceTree = "<group>"; };
+		02087DD217CD134500D2C022 /* LUAddCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUAddCardViewController.h; sourceTree = "<group>"; };
+		02087DD317CD134500D2C022 /* LUAddCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUAddCardViewController.m; sourceTree = "<group>"; };
+		02087DD717CD135A00D2C022 /* LUAddCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LUAddCardViewController.xib; path = NIBs/LUAddCardViewController.xib; sourceTree = "<group>"; };
+		02087DD917CD17A700D2C022 /* LURegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LURegisterViewController.h; sourceTree = "<group>"; };
+		02087DDA17CD17A700D2C022 /* LURegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LURegisterViewController.m; sourceTree = "<group>"; };
+		02087DDE17CD17B800D2C022 /* LURegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LURegisterViewController.xib; path = NIBs/LURegisterViewController.xib; sourceTree = "<group>"; };
+		022757F317CCE47800C83515 /* LULoggedOutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LULoggedOutViewController.xib; path = NIBs/LULoggedOutViewController.xib; sourceTree = "<group>"; };
+		022757F517CCF41500C83515 /* LULogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LULogInViewController.h; sourceTree = "<group>"; };
+		022757F617CCF41500C83515 /* LULogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LULogInViewController.m; sourceTree = "<group>"; };
+		022757FA17CCF42B00C83515 /* LULogInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LULogInViewController.xib; path = NIBs/LULogInViewController.xib; sourceTree = "<group>"; };
 		0246F20717B536FC009D5D84 /* LevelUpSDKSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LevelUpSDKSample-Info.plist"; sourceTree = "<group>"; };
 		0246F20817B536FC009D5D84 /* LevelUpSDKSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LevelUpSDKSample-Prefix.pch"; sourceTree = "<group>"; };
 		029F3C0717B3F0E7009B0BB0 /* LevelUpSDKSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LevelUpSDKSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		029F3C0A17B3F0E7009B0BB0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		029F3C0C17B3F0E7009B0BB0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		029F3C0E17B3F0E7009B0BB0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		029F3C1917B3F0E7009B0BB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		029F3C1A17B3F0E7009B0BB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		029F3C2D17B3F0E8009B0BB0 /* Unit Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Unit Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		029F3C1917B3F0E7009B0BB0 /* LUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LUAppDelegate.h; sourceTree = "<group>"; };
+		029F3C1A17B3F0E7009B0BB0 /* LUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LUAppDelegate.m; sourceTree = "<group>"; };
 		029F3C2E17B3F0E8009B0BB0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		029F3C4817B3F369009B0BB0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		029F3C4917B3F369009B0BB0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		029F3C4817B3F369009B0BB0 /* LULoggedOutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LULoggedOutViewController.h; sourceTree = "<group>"; };
+		029F3C4917B3F369009B0BB0 /* LULoggedOutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LULoggedOutViewController.m; sourceTree = "<group>"; };
 		029F3C4C17B3F369009B0BB0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		029F3C4D17B3F369009B0BB0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		029F3C4E17B3F369009B0BB0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		029F3C5017B3F369009B0BB0 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		029F3C5417B3F369009B0BB0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		029F3C5D17B3F406009B0BB0 /* Unit-Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Unit-Tests-Info.plist"; sourceTree = "<group>"; };
-		029F3C5E17B3F420009B0BB0 /* AppDelegateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegateSpec.m; sourceTree = "<group>"; };
-		029F3C6017B3F444009B0BB0 /* Unit-Tests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Unit-Tests-Prefix.pch"; sourceTree = "<group>"; };
-		22E6B0795DB544C5AC7A9984 /* Pods-test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.xcconfig"; path = "Pods/Pods-test.xcconfig"; sourceTree = SOURCE_ROOT; };
 		43EEB90621CF46E2BA203180 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		522D35D0BB894D019D27FE1D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E816A77369564D8A8781B0AB /* libPods-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,40 +85,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		029F3C2917B3F0E8009B0BB0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				029F3C2F17B3F0E8009B0BB0 /* SenTestingKit.framework in Frameworks */,
-				029F3C3017B3F0E8009B0BB0 /* UIKit.framework in Frameworks */,
-				029F3C3117B3F0E8009B0BB0 /* Foundation.framework in Frameworks */,
-				41ECBC3BCFA64244B7CDD47B /* libPods-test.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02087DBF17CCF9F300D2C022 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				02087DCF17CCFFE300D2C022 /* LUAuthenticationHandler.h */,
+				02087DD017CCFFE300D2C022 /* LUAuthenticationHandler.m */,
+				02087DC017CCFA5B00D2C022 /* LURequestHandler.h */,
+				02087DC117CCFA5B00D2C022 /* LURequestHandler.m */,
+			);
+			name = Handlers;
+			sourceTree = "<group>";
+		};
+		022757F217CCE45B00C83515 /* NIBs */ = {
+			isa = PBXGroup;
+			children = (
+				02087DD717CD135A00D2C022 /* LUAddCardViewController.xib */,
+				02087DC617CCFC4F00D2C022 /* LULoggedInViewController.xib */,
+				022757F317CCE47800C83515 /* LULoggedOutViewController.xib */,
+				022757FA17CCF42B00C83515 /* LULogInViewController.xib */,
+				02087DCD17CCFE4D00D2C022 /* LUPayViewController.xib */,
+				02087DDE17CD17B800D2C022 /* LURegisterViewController.xib */,
+			);
+			name = NIBs;
+			sourceTree = "<group>";
+		};
 		029F3BFE17B3F0E7009B0BB0 = {
 			isa = PBXGroup;
 			children = (
 				029F3C1017B3F0E7009B0BB0 /* Source */,
-				029F3C3417B3F0E8009B0BB0 /* Unit Tests */,
 				029F3C0917B3F0E7009B0BB0 /* Frameworks */,
 				029F3C0817B3F0E7009B0BB0 /* Products */,
 				43EEB90621CF46E2BA203180 /* Pods.xcconfig */,
-				22E6B0795DB544C5AC7A9984 /* Pods-test.xcconfig */,
 			);
-			indentWidth = 4;
+			indentWidth = 2;
 			sourceTree = "<group>";
-			tabWidth = 4;
+			tabWidth = 2;
 			usesTabs = 0;
 		};
 		029F3C0817B3F0E7009B0BB0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				029F3C0717B3F0E7009B0BB0 /* LevelUpSDKSample.app */,
-				029F3C2D17B3F0E8009B0BB0 /* Unit Tests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,30 +149,31 @@
 		029F3C1017B3F0E7009B0BB0 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				029F3C1917B3F0E7009B0BB0 /* AppDelegate.h */,
-				029F3C1A17B3F0E7009B0BB0 /* AppDelegate.m */,
+				029F3C1917B3F0E7009B0BB0 /* LUAppDelegate.h */,
+				029F3C1A17B3F0E7009B0BB0 /* LUAppDelegate.m */,
 				029F3C4717B3F369009B0BB0 /* Controllers */,
+				02087DBF17CCF9F300D2C022 /* Handlers */,
 				029F3C4A17B3F369009B0BB0 /* Resources */,
 				029F3C5117B3F369009B0BB0 /* Supporting Files */,
 			);
 			path = Source;
 			sourceTree = "<group>";
 		};
-		029F3C3417B3F0E8009B0BB0 /* Unit Tests */ = {
-			isa = PBXGroup;
-			children = (
-				029F3C5E17B3F420009B0BB0 /* AppDelegateSpec.m */,
-				029F3C5C17B3F406009B0BB0 /* Supporting Files */,
-			);
-			name = "Unit Tests";
-			path = "Unit-Tests";
-			sourceTree = "<group>";
-		};
 		029F3C4717B3F369009B0BB0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				029F3C4817B3F369009B0BB0 /* ViewController.h */,
-				029F3C4917B3F369009B0BB0 /* ViewController.m */,
+				02087DD217CD134500D2C022 /* LUAddCardViewController.h */,
+				02087DD317CD134500D2C022 /* LUAddCardViewController.m */,
+				02087DC317CCFC3A00D2C022 /* LULoggedInViewController.h */,
+				02087DC417CCFC3B00D2C022 /* LULoggedInViewController.m */,
+				029F3C4817B3F369009B0BB0 /* LULoggedOutViewController.h */,
+				029F3C4917B3F369009B0BB0 /* LULoggedOutViewController.m */,
+				022757F517CCF41500C83515 /* LULogInViewController.h */,
+				022757F617CCF41500C83515 /* LULogInViewController.m */,
+				02087DC817CCFE3A00D2C022 /* LUPayViewController.h */,
+				02087DC917CCFE3A00D2C022 /* LUPayViewController.m */,
+				02087DD917CD17A700D2C022 /* LURegisterViewController.h */,
+				02087DDA17CD17A700D2C022 /* LURegisterViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -160,7 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				029F3C4B17B3F369009B0BB0 /* Images */,
-				029F3C4F17B3F369009B0BB0 /* Storyboards */,
+				022757F217CCE45B00C83515 /* NIBs */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -175,30 +197,12 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
-		029F3C4F17B3F369009B0BB0 /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				029F3C5017B3F369009B0BB0 /* MainStoryboard.storyboard */,
-			);
-			path = Storyboards;
-			sourceTree = "<group>";
-		};
 		029F3C5117B3F369009B0BB0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				0246F20717B536FC009D5D84 /* LevelUpSDKSample-Info.plist */,
 				0246F20817B536FC009D5D84 /* LevelUpSDKSample-Prefix.pch */,
 				029F3C5417B3F369009B0BB0 /* main.m */,
-			);
-			name = "Supporting Files";
-			path = "Supporting-Files";
-			sourceTree = "<group>";
-		};
-		029F3C5C17B3F406009B0BB0 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				029F3C5D17B3F406009B0BB0 /* Unit-Tests-Info.plist */,
-				029F3C6017B3F444009B0BB0 /* Unit-Tests-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			path = "Supporting-Files";
@@ -227,27 +231,6 @@
 			productReference = 029F3C0717B3F0E7009B0BB0 /* LevelUpSDKSample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		029F3C2C17B3F0E8009B0BB0 /* Unit Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 029F3C4217B3F0E8009B0BB0 /* Build configuration list for PBXNativeTarget "Unit Tests" */;
-			buildPhases = (
-				5D9220E1AAC04C82988C653B /* Check Pods Manifest.lock */,
-				029F3C2817B3F0E8009B0BB0 /* Sources */,
-				029F3C2917B3F0E8009B0BB0 /* Frameworks */,
-				029F3C2A17B3F0E8009B0BB0 /* Resources */,
-				029F3C2B17B3F0E8009B0BB0 /* ShellScript */,
-				2CDC5B5BF73A43DC8E7F5AE4 /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				029F3C3317B3F0E8009B0BB0 /* PBXTargetDependency */,
-			);
-			name = "Unit Tests";
-			productName = CoreSDKSampleTests;
-			productReference = 029F3C2D17B3F0E8009B0BB0 /* Unit Tests.octest */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -270,7 +253,6 @@
 			projectRoot = "";
 			targets = (
 				029F3C0617B3F0E7009B0BB0 /* LevelUpSDKSample */,
-				029F3C2C17B3F0E8009B0BB0 /* Unit Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -283,33 +265,18 @@
 				029F3C5617B3F369009B0BB0 /* Default-568h@2x.png in Resources */,
 				029F3C5717B3F369009B0BB0 /* Default.png in Resources */,
 				029F3C5817B3F369009B0BB0 /* Default@2x.png in Resources */,
-				029F3C5917B3F369009B0BB0 /* MainStoryboard.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		029F3C2A17B3F0E8009B0BB0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				022757F417CCE47800C83515 /* LULoggedOutViewController.xib in Resources */,
+				022757FB17CCF42B00C83515 /* LULogInViewController.xib in Resources */,
+				02087DC717CCFC4F00D2C022 /* LULoggedInViewController.xib in Resources */,
+				02087DCE17CCFE4D00D2C022 /* LUPayViewController.xib in Resources */,
+				02087DD817CD135A00D2C022 /* LUAddCardViewController.xib in Resources */,
+				02087DDF17CD17B800D2C022 /* LURegisterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		029F3C2B17B3F0E8009B0BB0 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
 		0B0F5D5BA82649E8AC7798A3 /* Warn for TODO and FIXME comments */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -323,36 +290,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nFILE_EXTENSIONS=\"h|m|mm|c|cpp\"\nfind -E \"${SRCROOT}\" -ipath \"${SRCROOT}/pods\" -prune -o \\( -regex \".*\\.($FILE_EXTENSIONS)$\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
-		};
-		2CDC5B5BF73A43DC8E7F5AE4 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-test-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5D9220E1AAC04C82988C653B /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
 		};
 		A30DB166B07446E2B63B0338 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -391,29 +328,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				029F3C1B17B3F0E7009B0BB0 /* AppDelegate.m in Sources */,
-				029F3C5517B3F369009B0BB0 /* ViewController.m in Sources */,
+				029F3C1B17B3F0E7009B0BB0 /* LUAppDelegate.m in Sources */,
+				029F3C5517B3F369009B0BB0 /* LULoggedOutViewController.m in Sources */,
 				029F3C5B17B3F369009B0BB0 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		029F3C2817B3F0E8009B0BB0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				029F3C5F17B3F420009B0BB0 /* AppDelegateSpec.m in Sources */,
+				022757F817CCF41500C83515 /* LULogInViewController.m in Sources */,
+				02087DC217CCFA5B00D2C022 /* LURequestHandler.m in Sources */,
+				02087DC517CCFC3B00D2C022 /* LULoggedInViewController.m in Sources */,
+				02087DCB17CCFE3A00D2C022 /* LUPayViewController.m in Sources */,
+				02087DD117CCFFE300D2C022 /* LUAuthenticationHandler.m in Sources */,
+				02087DD517CD134500D2C022 /* LUAddCardViewController.m in Sources */,
+				02087DDC17CD17A700D2C022 /* LURegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		029F3C3317B3F0E8009B0BB0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 029F3C0617B3F0E7009B0BB0 /* LevelUpSDKSample */;
-			targetProxy = 029F3C3217B3F0E8009B0BB0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		029F3C3D17B3F0E8009B0BB0 /* Debug */ = {
@@ -453,7 +381,7 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
@@ -490,7 +418,7 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_VALUE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				RUN_CLANG_STATIC_ANALYZER = YES;
 				SDKROOT = iphoneos;
@@ -522,34 +450,6 @@
 			};
 			name = Release;
 		};
-		029F3C4317B3F0E8009B0BB0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22E6B0795DB544C5AC7A9984 /* Pods-test.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LevelUpSDKSample.app/LevelUpSDKSample";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Unit-Tests/Supporting-Files/Unit-Tests-Prefix.pch";
-				INFOPLIST_FILE = "Unit-Tests/Supporting-Files/Unit-Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		029F3C4417B3F0E8009B0BB0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22E6B0795DB544C5AC7A9984 /* Pods-test.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LevelUpSDKSample.app/LevelUpSDKSample";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Unit-Tests/Supporting-Files/Unit-Tests-Prefix.pch";
-				INFOPLIST_FILE = "Unit-Tests/Supporting-Files/Unit-Tests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -567,15 +467,6 @@
 			buildConfigurations = (
 				029F3C4017B3F0E8009B0BB0 /* Debug */,
 				029F3C4117B3F0E8009B0BB0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		029F3C4217B3F0E8009B0BB0 /* Build configuration list for PBXNativeTarget "Unit Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				029F3C4317B3F0E8009B0BB0 /* Debug */,
-				029F3C4417B3F0E8009B0BB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,3 @@
+@interface LURegisterViewController : UIViewController
+
+@end
