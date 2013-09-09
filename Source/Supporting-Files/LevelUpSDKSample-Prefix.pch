@@ -7,6 +7,7 @@
 #ifdef __OBJC__
   #import <UIKit/UIKit.h>
   #import <Foundation/Foundation.h>
+  #import <CoreLocation/CoreLocation.h>
 
   #import <LevelUpSDK/LevelUpSDK.h>
   #import <LUKeychainAccess/LUKeychainAccess.h>

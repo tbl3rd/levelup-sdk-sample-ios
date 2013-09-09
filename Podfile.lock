@@ -1,9 +1,9 @@
 PODS:
   - AFNetworking (1.1.0)
   - AutoCoding (2.0.2)
-  - LevelUpSDK (0.14.2):
+  - LevelUpSDK (0.17.1):
     - LevelUpSDK/Core
-  - LevelUpSDK/Core (0.14.2):
+  - LevelUpSDK/Core (0.17.1):
     - AFNetworking (~> 1.1.0)
     - AutoCoding (~> 2.0.2)
     - LUKeychainAccess (~> 1.0.0)
@@ -13,14 +13,14 @@ PODS:
   - ZXingObjC (2.0.2)
 
 DEPENDENCIES:
-  - LevelUpSDK (= 0.14.2)
+  - LevelUpSDK (= 0.17.1)
   - LUKeychainAccess (= 1.0.1)
   - SVProgressHUD (= 0.9)
 
 SPEC CHECKSUMS:
   AFNetworking: 761a418233d280c1e0580bcb76ff9cb4c3073d17
   AutoCoding: 5ca26eac460ed177d07dbd4572a3e980238001dd
-  LevelUpSDK: c32f49e5cb4d71718db211bd6b8feed468186bf2
+  LevelUpSDK: f9da2aae2acfb3703ed9ec544b6fc41c92b7c860
   LUKeychainAccess: 6ba22b2e1eec24f9f2fc9c6a9087d5524a58b1a2
   SVProgressHUD: 03d4845ec8e64591726428a08236c6a5489d45f8
   ZXingObjC: 9b2918fbb89d1febfdc7b2b1debd1dc6bf60f97a
