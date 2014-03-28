@@ -1,5 +1,4 @@
 platform :ios, '6.0'
 
-pod 'LevelUpSDK', '0.17.1'
-pod 'LUKeychainAccess', '1.0.1'
-pod 'SVProgressHUD', '0.9'
+pod 'LevelUpSDK', '1.2.4'
+pod 'SVProgressHUD', '1.0'

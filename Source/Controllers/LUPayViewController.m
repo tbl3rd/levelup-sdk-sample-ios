@@ -72,7 +72,7 @@
 
 - (void)refreshQRCode {
   if (self.paymentToken.data.length > 0) {
-    self.QRCodeImageView.image = [LUQRCodeGenerator QRCodeFromString:self.paymentToken.data withTipPercentage:self.tip];
+    self.QRCodeImageView.image = [LUPaymentQRCodeGenerator QRCodeFromPaymentToken:self.paymentToken.data withTipPercentage:self.tip];
   }
 }
 
