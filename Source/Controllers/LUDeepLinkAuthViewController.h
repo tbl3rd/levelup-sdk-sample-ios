@@ -1,0 +1,3 @@
+@interface LUDeepLinkAuthViewController : UIViewController
+
+@end

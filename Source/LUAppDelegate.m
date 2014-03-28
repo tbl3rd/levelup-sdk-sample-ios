@@ -3,12 +3,6 @@
 #import "LULoggedInViewController.h"
 #import "LULoggedOutViewController.h"
 
-@interface LUAppDelegate ()
-
-@property (nonatomic, strong) UINavigationController *navigationController;
-
-@end
-
 @implementation LUAppDelegate
 
 #pragma mark - UIApplicationDelegate Methods
@@ -19,6 +13,10 @@
   [self setupNavigationAndKeyWindow];
 
   return YES;
+}
+
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+  return [LUDeepLinkAuth handleOpenURL:url sourceApplication:sourceApplication];
 }
 
 #pragma mark - Public Methods
@@ -43,7 +41,7 @@
 
 - (void)configureLevelUpSDK {
   // NOTE: To run this sample, you must enter your App ID and API Key below
-  [LUAPIClient setupWithAppID:nil APIKey:nil developmentMode:YES];
+  [LUAPIClient setupWithAppID:nil APIKey:nil];
 }
 
 - (void)setupNavigationAndKeyWindow {

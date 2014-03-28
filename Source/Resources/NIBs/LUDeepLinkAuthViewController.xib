@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LUDeepLinkAuthViewController">
+            <connections>
+                <outlet property="userDetailsLabel" destination="sMz-DW-5Dn" id="nmG-1H-RBN"/>
+                <outlet property="view" destination="1" id="44"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deep Link Auth Successful!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w61-Qp-uIF">
+                    <rect key="frame" x="20" y="84" width="217" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="sMz-DW-5Dn">
+                    <rect key="frame" x="20" y="113" width="280" height="18"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="atg-kL-Ofy">
+                    <rect key="frame" x="132" y="139" width="56" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Log Out">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="logOutSelected" destination="-1" eventType="touchUpInside" id="SSO-Ad-twe"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="atg-kL-Ofy" secondAttribute="centerX" id="0EV-Ph-P36"/>
+                <constraint firstItem="w61-Qp-uIF" firstAttribute="top" secondItem="1" secondAttribute="top" constant="84" id="24f-pr-p6b"/>
+                <constraint firstAttribute="trailing" secondItem="sMz-DW-5Dn" secondAttribute="trailing" constant="20" symbolic="YES" id="3Co-pv-Law"/>
+                <constraint firstItem="sMz-DW-5Dn" firstAttribute="top" secondItem="w61-Qp-uIF" secondAttribute="bottom" constant="8" symbolic="YES" id="Isj-fY-XCR"/>
+                <constraint firstItem="atg-kL-Ofy" firstAttribute="top" secondItem="sMz-DW-5Dn" secondAttribute="bottom" constant="8" symbolic="YES" id="NZC-yv-0Lq"/>
+                <constraint firstItem="sMz-DW-5Dn" firstAttribute="leading" secondItem="w61-Qp-uIF" secondAttribute="leading" id="SCh-69-g2f"/>
+                <constraint firstItem="sMz-DW-5Dn" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="20" symbolic="YES" id="bPl-Px-8pd"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+        </view>
+    </objects>
+</document>

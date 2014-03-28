@@ -20,6 +20,8 @@
 		022757F417CCE47800C83515 /* LULoggedOutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 022757F317CCE47800C83515 /* LULoggedOutViewController.xib */; };
 		022757F817CCF41500C83515 /* LULogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 022757F617CCF41500C83515 /* LULogInViewController.m */; };
 		022757FB17CCF42B00C83515 /* LULogInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 022757FA17CCF42B00C83515 /* LULogInViewController.xib */; };
+		0294D02A1906C00C00BBACCB /* LUDeepLinkAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0294D0291906C00C00BBACCB /* LUDeepLinkAuthViewController.m */; };
+		0294D02C1906C06D00BBACCB /* LUDeepLinkAuthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0294D02B1906C06D00BBACCB /* LUDeepLinkAuthViewController.xib */; };
 		029F3C0B17B3F0E7009B0BB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029F3C0A17B3F0E7009B0BB0 /* UIKit.framework */; };
 		029F3C0D17B3F0E7009B0BB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029F3C0C17B3F0E7009B0BB0 /* Foundation.framework */; };
 		029F3C0F17B3F0E7009B0BB0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 029F3C0E17B3F0E7009B0BB0 /* CoreGraphics.framework */; };
@@ -55,6 +57,9 @@
 		022757FA17CCF42B00C83515 /* LULogInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LULogInViewController.xib; path = NIBs/LULogInViewController.xib; sourceTree = "<group>"; };
 		0246F20717B536FC009D5D84 /* LevelUpSDKSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LevelUpSDKSample-Info.plist"; sourceTree = "<group>"; };
 		0246F20817B536FC009D5D84 /* LevelUpSDKSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LevelUpSDKSample-Prefix.pch"; sourceTree = "<group>"; };
+		0294D0281906C00C00BBACCB /* LUDeepLinkAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LUDeepLinkAuthViewController.h; sourceTree = "<group>"; };
+		0294D0291906C00C00BBACCB /* LUDeepLinkAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LUDeepLinkAuthViewController.m; sourceTree = "<group>"; };
+		0294D02B1906C06D00BBACCB /* LUDeepLinkAuthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LUDeepLinkAuthViewController.xib; path = NIBs/LUDeepLinkAuthViewController.xib; sourceTree = "<group>"; };
 		029F3C0717B3F0E7009B0BB0 /* LevelUpSDKSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LevelUpSDKSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		029F3C0A17B3F0E7009B0BB0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		029F3C0C17B3F0E7009B0BB0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -103,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				02087DD717CD135A00D2C022 /* LUAddCardViewController.xib */,
+				0294D02B1906C06D00BBACCB /* LUDeepLinkAuthViewController.xib */,
 				02087DC617CCFC4F00D2C022 /* LULoggedInViewController.xib */,
 				022757F317CCE47800C83515 /* LULoggedOutViewController.xib */,
 				022757FA17CCF42B00C83515 /* LULogInViewController.xib */,
@@ -164,6 +170,8 @@
 			children = (
 				02087DD217CD134500D2C022 /* LUAddCardViewController.h */,
 				02087DD317CD134500D2C022 /* LUAddCardViewController.m */,
+				0294D0281906C00C00BBACCB /* LUDeepLinkAuthViewController.h */,
+				0294D0291906C00C00BBACCB /* LUDeepLinkAuthViewController.m */,
 				02087DC317CCFC3A00D2C022 /* LULoggedInViewController.h */,
 				02087DC417CCFC3B00D2C022 /* LULoggedInViewController.m */,
 				029F3C4817B3F369009B0BB0 /* LULoggedOutViewController.h */,
@@ -270,6 +278,7 @@
 				02087DC717CCFC4F00D2C022 /* LULoggedInViewController.xib in Resources */,
 				02087DCE17CCFE4D00D2C022 /* LUPayViewController.xib in Resources */,
 				02087DD817CD135A00D2C022 /* LUAddCardViewController.xib in Resources */,
+				0294D02C1906C06D00BBACCB /* LUDeepLinkAuthViewController.xib in Resources */,
 				02087DDF17CD17B800D2C022 /* LURegisterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,6 +341,7 @@
 				029F3C5517B3F369009B0BB0 /* LULoggedOutViewController.m in Sources */,
 				029F3C5B17B3F369009B0BB0 /* main.m in Sources */,
 				022757F817CCF41500C83515 /* LULogInViewController.m in Sources */,
+				0294D02A1906C00C00BBACCB /* LUDeepLinkAuthViewController.m in Sources */,
 				02087DC217CCFA5B00D2C022 /* LURequestHandler.m in Sources */,
 				02087DC517CCFC3B00D2C022 /* LULoggedInViewController.m in Sources */,
 				02087DCB17CCFE3A00D2C022 /* LUPayViewController.m in Sources */,

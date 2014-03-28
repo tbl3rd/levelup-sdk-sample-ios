@@ -1,13 +1,13 @@
 PODS:
-  - AFNetworking (1.3.3)
+  - AFNetworking (1.3.4)
   - AutoCoding (2.0.3)
-  - Braintree (2.2.7)
-  - LevelUpSDK (1.2.4):
+  - BTEncryption (2.2.8)
+  - LevelUpSDK (1.3.2):
     - LevelUpSDK/Core
-  - LevelUpSDK/Core (1.2.4):
-    - AFNetworking (= 1.3.3)
+  - LevelUpSDK/Core (1.3.2):
+    - AFNetworking (= 1.3.4)
     - AutoCoding (= 2.0.3)
-    - Braintree (= 2.2.7)
+    - BTEncryption (= 2.2.8)
     - LUKeychainAccess (= 1.2.0)
     - ZXingObjC (= 2.2.6)
   - LUKeychainAccess (1.2.0)
@@ -15,16 +15,16 @@ PODS:
   - ZXingObjC (2.2.6)
 
 DEPENDENCIES:
-  - LevelUpSDK (= 1.2.4)
+  - LevelUpSDK (= 1.3.2)
   - SVProgressHUD (= 1.0)
 
 SPEC CHECKSUMS:
-  AFNetworking: 61fdd49e2ffe6380378df37b3b6e70630bb9dd66
-  AutoCoding: 09843becf2a45985f444b43b555d73793c1e7a84
-  Braintree: a7b8b6cdefe1a98c4a33b9b4185b0669d6bdb0bc
-  LevelUpSDK: ae7f2728d92b2537ec07fdd9f13cb79635af0641
+  AFNetworking: e403d4333a4e1956cb3fe42364c3c879f820c9a0
+  AutoCoding: 1333ca8d012caec43045a896c2761fd93fb47990
+  BTEncryption: f7850cce4caa9455575137ef066e8e53528a2258
+  LevelUpSDK: 08ddef3ecf51ef7679b6c6b806a5b5ac0e8a0d4b
   LUKeychainAccess: 87c5398528278a5f24956b61bb459ea97bd93b6a
   SVProgressHUD: 5e10939a296debf5fe5a5895eda9539b8b2114f1
   ZXingObjC: 92c9cb07811ab6fcffe44465d7ee8775b1eb7913
 
-COCOAPODS: 0.29.0
+COCOAPODS: 0.32.1
