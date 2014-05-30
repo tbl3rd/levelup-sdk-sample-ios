@@ -1,30 +1,50 @@
 PODS:
-  - AFNetworking (1.3.4)
+  - AFNetworking (2.2.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.2.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.2.3):
+    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (2.2.3)
+  - AFNetworking/Security (2.2.3)
+  - AFNetworking/Serialization (2.2.3)
+  - AFNetworking/UIKit (2.2.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
   - AutoCoding (2.0.3)
   - BTEncryption (2.2.8)
-  - LevelUpSDK (1.3.2):
+  - LevelUpSDK (1.4.1):
     - LevelUpSDK/Core
-  - LevelUpSDK/Core (1.3.2):
-    - AFNetworking (= 1.3.4)
+  - LevelUpSDK/Core (1.4.1):
+    - AFNetworking (= 2.2.3)
     - AutoCoding (= 2.0.3)
     - BTEncryption (= 2.2.8)
     - LUKeychainAccess (= 1.2.0)
-    - ZXingObjC (= 2.2.6)
+    - ZXingObjC/QRCode (= 3.0.0)
   - LUKeychainAccess (1.2.0)
   - SVProgressHUD (1.0)
-  - ZXingObjC (2.2.6)
+  - ZXingObjC/Core (3.0.0)
+  - ZXingObjC/QRCode (3.0.0):
+    - ZXingObjC/Core
 
 DEPENDENCIES:
-  - LevelUpSDK (= 1.3.2)
+  - LevelUpSDK (= 1.4.1)
   - SVProgressHUD (= 1.0)
 
 SPEC CHECKSUMS:
-  AFNetworking: e403d4333a4e1956cb3fe42364c3c879f820c9a0
-  AutoCoding: 1333ca8d012caec43045a896c2761fd93fb47990
-  BTEncryption: f7850cce4caa9455575137ef066e8e53528a2258
-  LevelUpSDK: 08ddef3ecf51ef7679b6c6b806a5b5ac0e8a0d4b
-  LUKeychainAccess: 87c5398528278a5f24956b61bb459ea97bd93b6a
-  SVProgressHUD: 5e10939a296debf5fe5a5895eda9539b8b2114f1
-  ZXingObjC: 92c9cb07811ab6fcffe44465d7ee8775b1eb7913
+  AFNetworking: 47947303319594706f48a55185ea95a95159ab94
+  AutoCoding: a40014b5ce6608fdde428fca11fc1b9449e3a617
+  BTEncryption: 81f6480c8ab39db6c523ce4dc2fdb8a1c5d4a538
+  LevelUpSDK: bae52b1bc4da99efef8b69669609005479ce113d
+  LUKeychainAccess: 3559d5939dee13858809c2405164db901330d343
+  SVProgressHUD: 5034c6e22b8c2ca3e09402e48d41ed0340aa1c50
+  ZXingObjC: b21c74a5247f3809e179fc6129ec5e8b956886cf
 
-COCOAPODS: 0.32.1
+COCOAPODS: 0.33.1

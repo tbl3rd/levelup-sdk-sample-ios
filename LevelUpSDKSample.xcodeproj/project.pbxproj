@@ -155,12 +155,12 @@
 		029F3C1017B3F0E7009B0BB0 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				029F3C1917B3F0E7009B0BB0 /* LUAppDelegate.h */,
-				029F3C1A17B3F0E7009B0BB0 /* LUAppDelegate.m */,
 				029F3C4717B3F369009B0BB0 /* Controllers */,
 				02087DBF17CCF9F300D2C022 /* Handlers */,
 				029F3C4A17B3F369009B0BB0 /* Resources */,
 				029F3C5117B3F369009B0BB0 /* Supporting Files */,
+				029F3C1917B3F0E7009B0BB0 /* LUAppDelegate.h */,
+				029F3C1A17B3F0E7009B0BB0 /* LUAppDelegate.m */,
 			);
 			path = Source;
 			sourceTree = "<group>";
