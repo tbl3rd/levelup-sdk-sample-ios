@@ -12,12 +12,12 @@ For complete documentation on using the LevelUp SDK, visit our [Developer Portal
 Getting Started
 ---------------
 
-This demo uses [CocoaPods](http://cocoapods.org/). To install this app's dependencies (which include the LevelUp SDK) you will need access to the SDK's GitHub repository and LevelUp's CocoaPods repo. You will be given access to these repositories when you are accepted as a LevelUp SDK developer. For full details, read the [Getting Started: iOS](http://developer.thelevelup.com/mobile-sdks/getting-started/ios/) page on the LevelUp Developer site.
+This demo uses [CocoaPods](http://cocoapods.org/). See also the [Getting Started: iOS](http://developer.thelevelup.com/mobile-sdks/getting-started/ios/) page on the LevelUp Developer site.
 
-Once you've installed the app's dependencies, you'll need one more thing: an App ID and an API key. These are provided to you when you become a LevelUp developer. Once you have these values, update the `setupWithAPIKey:developmentMode:` method in the App Delegate to pass in these values:
+Once you've installed the app's dependencies, you'll need one more thing: an App ID and an API key. These are provided to you when you become a LevelUp developer. Once you have these values, update the `setupWithAppID:APIKey:` method in the App Delegate to pass in these values:
 
 ```objective-c
-[LUAPIClient setupWithAppID:@"your-app-id" APIKey:@"your-api-key" developmentMode:YES];
+[LUAPIClient setupWithAppID:@"your-app-id" APIKey:@"your-api-key"];
 ```
 
 Request Handling
