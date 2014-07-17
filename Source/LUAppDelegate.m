@@ -42,6 +42,9 @@
 - (void)configureLevelUpSDK {
   // NOTE: To run this sample, you must enter your App ID and API Key below
   [LUAPIClient setupWithAppID:nil APIKey:nil];
+
+  // Set developmentMode to YES to make requests against the LevelUp Sandbox server
+  // [LUAPIClient sharedClient].developmentMode = YES;
 }
 
 - (void)setupNavigationAndKeyWindow {

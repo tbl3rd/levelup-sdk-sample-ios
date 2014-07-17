@@ -41,10 +41,8 @@ NSString * const AuthenticationHandlerAccessTokenKey = @"LevelUp Access Token";
 + (void)updateAPIClientWithAccessToken:(LUAccessToken *)accessToken {
   if (accessToken) {
     [LUAPIClient sharedClient].accessToken = accessToken.token;
-    [LUAPIClient sharedClient].currentUserID = accessToken.userID;
   } else {
     [LUAPIClient sharedClient].accessToken = nil;
-    [LUAPIClient sharedClient].currentUserID = nil;
   }
 }
 
